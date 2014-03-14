@@ -1,5 +1,5 @@
-Install Redis on CentOS
-===========
+# Install Redis on CentOS
+
 
 Note: Please make sure you have superuser privileges
 
@@ -8,8 +8,15 @@ Note: Please make sure you have superuser privileges
 3. chmod 777 redis-install-script.sh
 3. ./redis-install-script.sh
 
-References:
------
+
+
+## Options
+
+
+Edit `redis-install-script.sh` and change on top of the file `PORT` and `DATADIR`
+
+
+## References
 
 - https://github.com/saxenap/install-redis-amazon-linux-centos
 - http://www.codingsteps.com/install-redis-2-6-on-amazon-ec2-linux-ami-or-centos/
